@@ -3,8 +3,7 @@ gunicorn==19.9.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
-numpy>=1.9.2
-pandas>=0.19
+numpy>=1.18.1
 Keras>=2.3.1
 Pillow>=3.3.3
 tensorflow>=1.19.2
