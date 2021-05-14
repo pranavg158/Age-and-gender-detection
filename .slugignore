@@ -4,7 +4,7 @@
 # Smaller slugs can be transferred to the dyno manager more quickly, allowing for more immediate scaling. You should try to keep your slugs as small and nimble as possible.
 # The maximum allowed slug size (after compression) is 500 MB.
 
-*.psd
+*.h5
 *.pdf
 /test
 /spec
