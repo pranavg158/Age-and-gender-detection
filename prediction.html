@@ -9,45 +9,30 @@
         <center>
             <div class='cont'>
             {% if data1[0] > 0.50 %}
-           <h1>I think its a MALE</h1>
-            
+           <h1>I think its a MALE</h1>          
             {%else%}
-            <h1>I think its a FEMALE </h1>
-		
-			{%endif%}    
-			
+            <h1>I think its a FEMALE </h1>		
+			{%endif%}    			
 			{% if data2 == 0 %}
-            <h1>I think AGE is between 0-2 </h1>
-			
+            <h1>I think AGE is between 0-2 </h1>			
 			{% elif data2 == 1 %}
-            <h1>I think AGE is between 4-6 </h1>
-			
+            <h1>I think AGE is between 4-6 </h1>			
 			{% elif data2 == 2 %}
-            <h1>I think AGE is between 8-13 </h1>
-			
+            <h1>I think AGE is between 8-13 </h1>			
 			{% elif data2 == 3 %}
-            <h1>I think AGE is between 15-20 </h1>
-			
+            <h1>I think AGE is between 15-20 </h1>			
 			{% elif data2 == 4 %}
-            <h1>I think AGE is between 25-32 </h1>
-			
+            <h1>I think AGE is between 25-32 </h1>			
 			{% elif data2 == 5 %}
-            <h1>I think AGE is between 038-43 </h1>
-			
+            <h1>I think AGE is between 038-43 </h1>			
 			{% elif data2 == 6 %}
-            <h1>I think AGE is between 48-53 </h1>
-			           
+            <h1>I think AGE is between 48-53 </h1>			           
             {% else %}
-            <h1>I think AGE is 60+ </h1>
-            
-            {%endif%}
-			
-        </div>
-                  
+            <h1>I think AGE is 60+ </h1>            
+            {%endif%}			
+        </div>                  
             <img src="{{url_for('load_img')}}" alt='img'>
             <a href="/" class='btn'>go back</a>
-
-        </center>
-        
+        </center>        
     </body>
 </html>
